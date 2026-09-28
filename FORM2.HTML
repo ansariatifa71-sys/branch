@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<h1>Student ragistration form</h1>
+<form action="submit"method="post"> </form>
+<fieldset>
+<legend>personal informatio</legend>
+<label for="name">Full Name:</label><br>
+<input type="text" id="name" name="name" placeholder="Enter your Name" placeholder="enter your name" required /><br><br>
+<label for="name">Email:</label><br>
+<input type="Email" id="Email" name="Email"placeholder="Enter your Email" required /><br><br>
+<label for="name">Age:</label><br>
+<input type="number" id="age" name="age" min="16" max="60" placeholder=" Age" required /><br><br>
+</fieldset>
+<fieldset>
+<legend>Course Details </legend>
+<label for="course">choose a course:</label>
+<select id="course" name="course">
+<optgroup label="fronted">
+<option value="css">css</option>
+<option value="html">html</option>
+</optgroup>
+<optgroup label="Backend">
+<option value="java script">java script</option>
+</optgroup>
+</select>
+<br>
+<br>
+<label for="msg">Why do you Wnat to join?</label><br>
+<textarea
+id="msg"
+name="msg"
+rows="4"
+cols="30"
+placeholder="Tell Us brif... ">
+</textarea>
+</fieldset>
+<br>
+<input type="submit" value="Register" />
+<input type="reset" value="clear form"/>
+
+</body>
+</html>

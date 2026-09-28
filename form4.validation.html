@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Student Ragistration </h2>
+  <form>
+    <label>Full name </label><br>
+    <input
+    type="text"
+    required
+    minlength="3"
+    maxlength="30"
+    pattern=" [a-z] {1-20}"
+    placeholder="Enter your full name "><br><br>
+    <label>Email:</label><br>
+    <input
+    type="email"
+    required
+    placeholder="abc@gamil.com"><br><br>
+    <label>password</label><br>
+    <input
+    type="password"
+    required
+    minlength="8"
+    maxlength="15"
+    placeholder="minimum 8 characters"><br><br>
+    <label>Age</label><br>
+    <input
+    type="number"
+    required
+    min="18"
+    max="60"><br><br>
+
+    <label>phone number</label><br>
+    <input
+    type="tel"
+    required
+    pattern="[0-9] {10}"
+    placeholder="10 digit mobail number"><br><br>
+    <label>Date of birth</label><br>
+    <input
+    type="date"
+    required><br><br>
+    <label>website</label><br>
+    <input
+    type="url"
+    placeholder="https://exampel.com"><br><br>
+    <input type="submit" value="Ragistration">
+
+  </form>
+
+</body>
+</html>
